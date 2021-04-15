@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">GitHub User</string>
+
+    <string name="main_tab_1">Utama</string>
+    <string name="main_tab_2">Favorit</string>
+    <string name="main_tab_3">Pengaturan</string>
+
+    <string name="welcome_title">Selamat Datang Di GitHub Users</string>
+    <string name="welcome_desc">Sekarang kamu dapat mencari lebih dari 23 juta pengembang di seluruh dunia</string>
+    <string name="search">Cari</string>
+    <string name="alarm_settings">Pengingat Alarm (09.00 AM)</string>
+    <string name="language_settings">Pengaturan Bahasa</string>
+    <string name="about_me">Tentang Saya</string>
+    <string name="btn_config">Atur</string>
+    <string name="btn_about">Tentang Saya</string>
+    <string name="my_name">Mohammad Arafat Maku</string>
+    <string name="my_email">arafat1419@gmail.com</string>
+
+    <string name="username">Nama Pengguna</string>
+    <string name="tv_repos">Reposititory</string>
+    <string name="tv_followers">Pengikut</string>
+    <string name="tv_following">Mengikuti</string>
+    <string name="company">Perusahaan</string>
+    <string name="location">Lokasi</string>
+    <string name="blog">Blog</string>
+    <string name="search_hint">Masukkan Nama Pengguna</string>
+
+    <string name="img_company_desc">Nama Perusahaan</string>
+    <string name="img_location_desc">Nama Lokasi</string>
+
+    <string name="choose">Kamu memilih : %s</string>
+    <string name="detail">Pengguna : %s</string>
+    <string name="home">Utama</string>
+    <string name="home_menu">Kembali ke menu utama</string>
+
+    <string name="empty">-</string>
+
+    <string name="tab_followers">Pengikut</string>
+    <string name="tab_following">Mengikut</string>
+
+    <string name="repeat_alarm">Alarm berulang di atur</string>
+    <string name="repeat_cancel">Alarm berulang di batalkan</string>
+    <string name="git_desc">Pergi ke website github</string>
+    <string name="alarm_provider">Alarm Provider</string>
+    <string name="ig">Instagram</string>
+    <string name="git">GitHub</string>
+    <string name="linkedin">LinkedIn</string>
+    <string name="photo_user">Photo User</string>
+    <string name="language">Language</string>
+    <string name="github_user">GitHub User</string>
+
+    <string name="my_photo">My Photo</string>
+
+    <string name="add_fav">Menambahkan %s ke Favorit</string>
+    <string name="remove_fav">Menghapus %s dari Favorit</string>
+
+    <string name="widget_enabled">Github Widget Diaktifkan</string>
+    <string name="widget_disabled">Github Widget DiNonaktifkan</string>
+    <string name="favorite">favorite</string>
+    <string name="id">ID :</string>
+
+</resources>

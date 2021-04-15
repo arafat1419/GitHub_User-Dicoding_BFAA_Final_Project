@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dicoding.sub3_githubusers">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <permission
+        android:name="com.dicoding.sub3_githubusers.READ_DATABASE"
+        android:protectionLevel="normal" />
+    <permission
+        android:name="com.dicoding.sub3_githubusers.WRITE_DATABASE"
+        android:protectionLevel="normal" />
+
+    <application
+        android:icon="@mipmap/ic_launcher_git"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_git_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Sub3GitHubUsers">
+        <provider
+            android:name=".provider.UserContentProvider"
+            android:authorities="com.dicoding.sub3_githubusers"
+            android:enabled="true"
+            android:exported="true"
+            android:readPermission="com.dicoding.sub3_githubusers.READ_DATABASE"
+            android:writePermission="com.dicoding.sub3_githubusers.WRITE_DATABASE" />
+
+        <activity
+            android:name=".ui.activity.SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.activity.AboutActivity"
+            android:screenOrientation="portrait" />
+
+        <receiver
+            android:name=".ui.fitur.AlarmReceiver"
+            android:enabled="true"
+            android:exported="true" />
+
+        <receiver android:name=".widget.GithubWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget" />
+        </receiver>
+
+        <activity android:name=".ui.activity.FollowActivity" />
+        <activity
+            android:name=".ui.activity.DetailActivity"
+            android:parentActivityName=".ui.activity.MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.activity.MainActivity" />
+        </activity>
+        <activity android:name=".ui.activity.MainActivity" />
+
+        <service
+            android:name=".widget.WidgetService"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+    </application>
+</manifest>

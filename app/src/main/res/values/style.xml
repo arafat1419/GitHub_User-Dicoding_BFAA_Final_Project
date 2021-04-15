@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="welcome_card">
+        <item name="cardBackgroundColor">@color/grey_500</item>
+        <item name="cardElevation">10dp</item>
+    </style>
+</resources>

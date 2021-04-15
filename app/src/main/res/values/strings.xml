@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">GitHub User</string>
+
+    <string name="main_tab_1">Home</string>
+    <string name="main_tab_2">Favorite</string>
+    <string name="main_tab_3">Settings</string>
+
+    <string name="welcome_title">Welcome To GitHub Users</string>
+    <string name="welcome_desc">Now you can search more than 23 million developers around the world</string>
+    <string name="search">Search</string>
+    <string name="alarm_settings">Alarm Reminder (09.00 AM)</string>
+    <string name="language_settings">Language Configuration</string>
+    <string name="about_me">About Me</string>
+    <string name="btn_config">Config</string>
+    <string name="btn_about">About Me</string>
+    <string name="my_name">Mohammad Arafat Maku</string>
+    <string name="my_email">arafat1419@gmail.com</string>
+
+    <string name="username">Username</string>
+    <string name="tv_repos">Reposititory</string>
+    <string name="tv_followers">Followers</string>
+    <string name="tv_following">Following</string>
+    <string name="company">Company</string>
+    <string name="location">Location</string>
+    <string name="blog">Blog</string>
+    <string name="search_hint">Enter Username</string>
+
+    <string name="img_company_desc">Company Name</string>
+    <string name="img_location_desc">Location Name</string>
+
+    <string name="choose">You Choose : %s</string>
+    <string name="detail">User : %s</string>
+    <string name="home">Home</string>
+    <string name="home_menu">Back to home menu</string>
+
+    <string name="empty">-</string>
+
+    <string name="tab_followers">Followers</string>
+    <string name="tab_following">Following</string>
+
+    <string name="repeat_alarm">Repeating alarm set up</string>
+    <string name="repeat_cancel">Repeating alarm cancel</string>
+    <string name="git_desc">Go to Github Website</string>
+    <string name="alarm_provider">Alarm Provider</string>
+    <string name="ig">Instagram</string>
+    <string name="git">GitHub</string>
+    <string name="linkedin">LinkedIn</string>
+    <string name="photo_user">Photo User</string>
+    <string name="language">Language</string>
+    <string name="github_user">GitHub User</string>
+    <string name="my_photo">My Photo</string>
+
+    <string name="add_fav">Added %s to Favorite</string>
+    <string name="remove_fav">Remove %s from Favorite</string>
+
+    <string name="widget_enabled">Github Widget Activat</string>
+    <string name="widget_disabled">Github Widget UnActive</string>
+    <string name="favorite">favorite</string>
+    <string name="id">ID :</string>
+
+</resources>
